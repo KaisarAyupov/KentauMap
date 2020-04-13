@@ -18,7 +18,7 @@ mc = MarkerCluster()
 #creating a Marker for each point in df_sample.  Each point will get a popup with their zip
 for row in df.itertuples():
     mc.add_child(folium.Marker(location=[row.xdd, row.ydd], icon=None,
-                    popup=row.Gamma))
+                    popup=folium.Popup('Поселок:{}<br>\Микрорентген[µР]:{}'.format(row.Vilage, row.Gamma,  max_width=500))))
     
 gamma_pnt_map.add_child(mc)
 
