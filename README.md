@@ -1,5 +1,7 @@
 # KentauMap
  Test maping use Python tool
+ 
+ [Оценка состояния растительного покрова территории города Кентау](https://kaisarayupov.github.io/KentauMap/results/SentinelNDVI)
   
  [Гамма-съемка территории города Кентау](https://kaisarayupov.github.io/KentauMap/results/GammaMarkerClustersMap)
  
