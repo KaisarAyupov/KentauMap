@@ -151,7 +151,8 @@ title_html = """
 <div style="position: fixed; 
      top: 20px; left: 80px; border:2px solid grey; z-index:9999; background-color: white;"> 
   <div class="col-sm-auto">
-  <h5 style="margin: 10px;" class="card-title">СОСТОЯНИЕ РАСТИТЕЛЬНОГО ПОКРОВА</h5>    
+  <h5 style="margin: 10px;" class="card-title">СОСТОЯНИЕ РАСТИТЕЛЬНОГО ПОКРОВА</h5>
+  <p class="text-center">(2019года, по данным Sentinel-2)</p>
   </div>
 </div>"""
 NDVI_map.get_root().html.add_child(folium.Element(title_html))
