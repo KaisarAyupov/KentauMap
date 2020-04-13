@@ -32,4 +32,4 @@ legend_html =   '''
 
 gamma_pnt_map.get_root().html.add_child(folium.Element(legend_html))
 
-gamma_pnt_map.save(os.path.join('results', 'Gamma MarkerClusters Map.html'))
+gamma_pnt_map.save(os.path.join('results', 'GammaMarkerClustersMap.html'))

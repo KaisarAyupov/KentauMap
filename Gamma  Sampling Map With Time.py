@@ -36,4 +36,4 @@ time_index = list(df_copy.SampleData.sort_values().unique())
 gamma_map = generateBaseMap(default_zoom_start=14)
 HeatMapWithTime(df_hour_list, index=time_index, radius=10, gradient={0.2: 'cyan', 0.4: 'yellow', 0.6: 'orange', 1: 'red'}, min_opacity=0.5, max_opacity=0.8, use_local_extrema=True).add_to(gamma_map)
 
-gamma_map.save(os.path.join('results', 'Gamma Sampling Map With Time.html'))
+gamma_map.save(os.path.join('results', 'GammaSamplingMapWithTime.html'))
